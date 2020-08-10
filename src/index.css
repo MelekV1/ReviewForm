@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.AppBox{
+  font-family:Ubuntu , sans-serif;
+  background-color: #ffe600;
+  width: 500px;
+  text-align: center;
+  padding: 30px;
+  margin-left: 37%;
+  margin-top: 10%;
+  border-radius: 50px;
+  border: 1px solid #efefef;
+  text-shadow: 0.5px 0.5px #efefef;
+  box-shadow:
+  0 1px 1px rgba(0,0,0,0.15),
+  0 10px 1px  rgba(0,0,0,0.15),
+  0 20px 0  #eee,
+  0 20px 1px  rgba(0,0,0,0.15);
+
+}
