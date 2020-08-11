@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Spinner from 'react-bootstrap/Spinner';
 import Greet from './Greet'
 import Button from 'react-bootstrap/Button';
+import Image from "./console.png"
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
 
         <Form.Group controlId="exampleForm.ControlSelect1">
           <Form.Label>Select a product </Form.Label>
+          <img className="image" src={Image} alt="Video Game"/>
           <Form.Control as="select">
             <option>Red ded Redumption</option>
             <option>Assassin creed Valhalla</option>
