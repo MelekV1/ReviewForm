@@ -47,7 +47,7 @@ function App() {
         Most trusted measurement of quality for Games ,Movies , TV.
         </Form.Text>
         </Form.Group>
-        <Button variant="outline-success">Submit your review</Button>{' '}
+        <Button variant="outline-success">Submit your review</Button>
       </Form>
 
     </div>
