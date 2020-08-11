@@ -1,14 +1,9 @@
 import React from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from 'react-bootstrap/Form';
 import Spinner from 'react-bootstrap/Spinner';
 import Greet from './Greet'
 import Button from 'react-bootstrap/Button';
-
-
-
 
 function App() {
 
