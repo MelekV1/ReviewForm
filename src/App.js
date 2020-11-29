@@ -7,10 +7,9 @@ import Button from 'react-bootstrap/Button';
 import Image from "./console.png"
 
 function App() {
-
   return (
+    <React.Fragment>
     <div className="AppBox">
-
       <Greet/>
       <Spinner animation="grow" variant="info" />
       <Form>
@@ -23,7 +22,6 @@ function App() {
           Your data will remain secure with us
           </Form.Text>
         </Form.Group>
-
         <Form.Group controlId="exampleForm.ControlSelect1">
           <Form.Label>Select a product </Form.Label>
           <img className="image" src={Image} alt="Video Game"/>
@@ -35,7 +33,6 @@ function App() {
             <option>Ghost of tsushima</option>
           </Form.Control>
         </Form.Group>
-
         <Form.Group controlId="exampleForm.ControlTextarea1">
         <Form.Label>write your review</Form.Label>
         <Form.Control as="textarea" rows="3" placeholder="This is a video Game review ">
@@ -46,9 +43,8 @@ function App() {
         </Form.Group>
         <Button variant="outline-success">Submit your review</Button>
       </Form>
-
     </div>
-
+</React.Fragment>
   );
 }
 
